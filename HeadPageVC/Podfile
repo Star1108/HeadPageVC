@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+ platform :ios, '10.0'
+
+target 'HeadPageVC' do
+
+pod 'AutoInch'
+pod 'Then'
+pod 'SteviaLayout'
+pod 'MJRefresh'
+
+end

@@ -1,0 +1,6 @@
+module Pods_HeadPageVC {
+  umbrella header "Pods-HeadPageVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

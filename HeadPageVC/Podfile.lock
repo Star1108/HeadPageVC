@@ -1,0 +1,28 @@
+PODS:
+  - AutoInch (1.3.0)
+  - MJRefresh (3.2.0)
+  - SteviaLayout (4.6.0)
+  - Then (2.6.0)
+
+DEPENDENCIES:
+  - AutoInch
+  - MJRefresh
+  - SteviaLayout
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AutoInch
+    - MJRefresh
+    - SteviaLayout
+    - Then
+
+SPEC CHECKSUMS:
+  AutoInch: f7094b49484fdffb3e74db738d501896323a1306
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  SteviaLayout: b1b56a932f7e199a963a8cf59de2f766a3112d58
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+
+PODFILE CHECKSUM: 11abc09da8b278c55afafb743ecd284505a3367b
+
+COCOAPODS: 1.7.5
