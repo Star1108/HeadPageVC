@@ -4,8 +4,8 @@
 
 ## 使用方法
 ### 子控制器：
-1.继承LXChildViewController
-2.重写父类属性
+1.继承LXChildViewController\n
+2.重写父类属性\n
     'override var offsetY: CGFloat {
         set {
             tableView!.contentOffset = CGPoint(x: 0, y: newValue)
@@ -14,15 +14,14 @@
             return tableView!.contentOffset.y
         }
     }
-    
     override var isCanScroll: Bool {
         didSet {
             if isCanScroll {
                 tableView!.setContentOffset(CGPoint(x: 0, y: offsetY), animated: false)
             }
         }
-    }’
-3.实现代理方法
+    }'
+3.实现代理方法\n
     'func scrollViewDidScroll(_ scrollView: UIScrollView) {
         scrollDelegate?.lxChildViewController(self, scrollViewDidScroll: scrollView)
     }'
