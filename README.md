@@ -8,12 +8,12 @@ viewControllers:子控制器<br>
 headerView:头视图<br>
 pageTitleView:菜单栏<br>
 viewHeight:pageVC高度，当底部有其他空间时，通过这个来控制<br>
-'''
+```
 pageVC = LXPageViewController.init(viewControllers: controllers, headerView: headView!, pageTitleView: titleView!, viewHeight: view.frame.height)
 pageVC!.delegate = self
 addChild(pageVC!)
 view.addSubview(pageVC!.view)
-'''
+```
 ### 子控制器：
 1.继承LXChildViewController<br>
 2.重写父类属性<br>
