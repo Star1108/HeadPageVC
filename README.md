@@ -17,8 +17,7 @@ view.addSubview(pageVC!.view)
 ### 子控制器：
 1.继承LXChildViewController<br>
 2.重写父类属性<br>
-
-        ’‘’override var offsetY: CGFloat {
+    '''override var offsetY: CGFloat {
         set {
             tableView!.contentOffset = CGPoint(x: 0, y: newValue)
         }
@@ -34,8 +33,7 @@ view.addSubview(pageVC!.view)
         }
     }'''
 3.实现代理方法<br>
-
-        ‘’‘func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    '''func scrollViewDidScroll(_ scrollView: UIScrollView) {
         scrollDelegate?.lxChildViewController(self, scrollViewDidScroll: scrollView)
     }'''
 
