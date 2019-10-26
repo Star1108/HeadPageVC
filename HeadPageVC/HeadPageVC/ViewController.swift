@@ -42,7 +42,6 @@ extension ViewController {
         let controllers = [PageChildVC1.init(), PageChildVC2.init(), PageChildVC1.init()]
         pageVC = LXPageViewController.init(viewControllers: controllers, headerView: headView!, pageTitleView: titleView!, viewHeight: view.frame.height)
         pageVC!.delegate = self
-
         addChild(pageVC!)
         view.addSubview(pageVC!.view)
         titleView?.selectMenuIndex(index: 0)
